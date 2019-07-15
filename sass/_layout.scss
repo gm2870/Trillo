@@ -8,12 +8,12 @@
 }
 
 .header {
+    font-size: 1.4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
     border-bottom: var(--color-grey-light-2);
-    padding: 1.5rem;
     height: 7rem;
 }
 .content {
@@ -22,9 +22,13 @@
 
 .sidebar {
     background-color: var(--color-grey-dark-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     flex: 0 0 18%;
 }
 .hotel-view{
     background-color: orangered;
+    height: 80rem;
     flex: 1;
 }
